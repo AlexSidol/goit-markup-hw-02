@@ -12,3 +12,11 @@ body {
     color: var(--primary-text-color);
 
 }
+.logo{
+    color: #000000;
+}
+.partlogo{
+    color: var(--accent-color)
+}
+
+.site-nav .list:hover,
