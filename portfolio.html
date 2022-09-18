@@ -5,127 +5,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="page">
     <header>
-      <a href="/"><span>Web</span>Studio</a>
+      <a href="/" class="logo"><span class="partlogo">Web</span>Studio</a>
       <nav>
-        <ul>
-          <li><a href=""> Студія</a></li>
-          <li><a href=""> Портфоліо</a></li>
-          <li><a href=""> Контакти</a></li>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link"> Студія</a></li>
+          <li><a href="" class="link current"> Портфоліо</a></li>
+          <li><a href="" class="link"> Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="site-nav">
+        <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
-      <section>
+      <section class="section-examples">
         <!-- <h2>Приклади робіт веб студії</h2> -->
         <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button type="button" class="second-button">Усі</button></li>
+          <li><button type="button" class="second-button">Веб-сайти</button></li>
+          <li><button type="button" class="second-button">Додатки</button></li>
+          <li><button type="button" class="second-button">Дизайн</button></li>
+          <li><button type="button" class="second-button">Маркетинг</button></li>
         </ul>
         <ul>
           <li>
             <a href="">
-              <img src="./images/tehnokryak.jpg" alt="екран ноутбука з відкритою сторінкою сайту" width="370" height="294" />
+              <img
+                src="./images/tehnokryak.jpg"
+                alt="екран ноутбука з відкритою сторінкою сайту"
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Технокряк</h3>
-              <p>Веб-сайт</p>
+              <h3 class="title examples">Технокряк</h3>
+              <p class="title-text">Веб-сайт</p>
             </div>
           </li>
           <li>
             <a href="">
-              <img src="./images/posterne.jpg" alt="2 баскетболісти з м'ячем" width="370" height="294" />
+              <img
+                src="./images/posterne.jpg"
+                alt="2 баскетболісти з м'ячем"
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Постер New Orlean vs Golden Star</h3>
-              <p>Дизайн</p>
+              <h3 class="title examples">Постер New Orlean vs Golden Star</h3>
+              <p class="title-text">Дизайн</p>
             </div>
           </li>
           <li>
             <a href="">
-              <img src="./images/restoran.jpg" alt="емблема ресторану Seafood" width="370" height="294" />
+              <img
+                src="./images/restoran.jpg"
+                alt="емблема ресторану Seafood"
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Ресторан Seafood</h3>
-              <p>Додаток</p>
+              <h3 class="title examples">Ресторан Seafood</h3>
+              <p class="title-text">Додаток</p>
             </div>
           </li>
           <li>
             <a href="">
-              <img src="./images/project-prime.jpg" alt="чорні навушники" width="370" height="294" />
+              <img
+                src="./images/project-prime.jpg"
+                alt="чорні навушники"
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Проєкт Prime</h3>
-              <p>Маркетинг</p>
+              <h3 class="title examples">Проєкт Prime</h3>
+              <p class="title-text">Маркетинг</p>
             </div>
           </li>
           <li>
             <a href="">
-              <img src="./images/project-boxes.jpg" alt="дві коробки білого і бежевого кольорів" width="370" height="294" />
+              <img
+                src="./images/project-boxes.jpg"
+                alt="дві коробки білого і бежевого кольорів"
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Проєкт Boxes</h3>
-              <p>Додаток</p>
+              <h3 class="title examples">Проєкт Boxes</h3>
+              <p class="title-text">Додаток</p>
             </div>
           </li>
           <li>
             <a href="">
-              <img src="./images/inspiration-has-no-borders.jpg" alt="лендінгова сторінка сайту на моніторі apple " width="370" height="294" />
+              <img
+                src="./images/inspiration-has-no-borders.jpg"
+                alt="лендінгова сторінка сайту на моніторі apple "
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Inspiration has no Borders</h3>
-              <p>Веб-сайт</p>
+              <h3 class="title examples">Inspiration has no Borders</h3>
+              <p class="title-text">Веб-сайт</p>
             </div>
           </li>
           <li>
             <a href="">
-              <img src="./images/limited-edition.jpg" alt="розгорнутий журнал" width="370" height="294" />
+              <img
+                src="./images/limited-edition.jpg"
+                alt="розгорнутий журнал"
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Видання Limited Edition</h3>
-              <p>Дизайн</p>
+              <h3 class="title examples">Видання Limited Edition</h3>
+              <p class="title-text">Дизайн</p>
             </div>
           </li>
           <li>
             <a href="">
-              <img src="./images/project-lab.jpg" alt="біла етикетка з написом LAB El TAG" width="370" height="294" />
+              <img
+                src="./images/project-lab.jpg"
+                alt="біла етикетка з написом LAB El TAG"
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Проєкт LAB</h3>
-              <p>Маркетинг</p>
+              <h3 class="title examples">Проєкт LAB</h3>
+              <p class="title-text">Маркетинг</p>
             </div>
           </li>
           <li>
             <a href="">
-              <img src="./images/growing-business.jpg" alt="відкритий сірий ноутбук на білому фоні" width="370" height="294" />
+              <img
+                src="./images/growing-business.jpg"
+                alt="відкритий сірий ноутбук на білому фоні"
+                width="370"
+                height="294"
+              />
             </a>
             <div>
-              <h3>Growing Business</h3>
-              <p>Додаток</p>
+              <h3 class="title examples">Growing Business</h3>
+              <p class="title-text">Додаток</p>
             </div>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="/"><span>Web</span>Studio</a>
+    <footer class="footer">
+      <a href="/" class="logo-footer"><span class="partlogo">Web</span>Studio</a>
       <address>
         <ul>
-          <li><a href=""> м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a href=""> info@devstudio.com</a></li>
-          <li><a href=""> +38 096 111 11 11</a></li>
+          <li><a href="" class="address-footer"> м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li><a href="" class="mail-footer"> info@devstudio.com</a></li>
+          <li><a href="" class="tel-footer"> +38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>

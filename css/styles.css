@@ -1,0 +1,149 @@
+:root {
+  --primary-text-color: #212121;
+  --white-text-color: #ffffff;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #f5f5f5;
+  --section-background-color: #f5f4fa;
+  --blok-background-color: #eeeeee;
+  --footer-color: #2f303a;
+}
+/* Основний колір фону та тексту */
+.page {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+}
+
+.title.examples {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+}
+
+.section .title {
+  font-weight: 500;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+.title-text,
+.site-nav .contact {
+  color: var(--title-text-color);
+}
+
+/* Хедер */
+.header {
+  background-color: var(--white-text-color);
+}
+.logo,
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+}
+.logo {
+  color: #000000;
+}
+.partlogo {
+  color: var(--accent-color);
+  font-family: Oleo Scrip, cursive;
+  font-weight: 400;
+  line-height: 1.38px;
+}
+/* Хедер Посилання на інші сторінки сайту емейл та телефон */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .contact:focus,
+.site-nav .contact:hover,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.current,
+.address-footer:focus,
+.address-footer:hover,
+.mail-footer:focus,
+.mail-footer:hover,
+.tel-footer:focus,
+.tel-footer:hover
+{
+  color: var(--accent-color);
+}
+
+.site-nav .link,
+.site-nav .contact {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Hero */
+/* Ефективні рішення для вашого бізнесу */
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+.main-headline,
+.logo-footer {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+}
+
+.main-headline,
+.title.capital-letters {
+  text-transform: uppercase;
+}
+
+/* Кнопки в портфоліо фільтр робіт*/
+
+.second-button {
+  background-color: var(--section-background-color);
+  font-weight: 500;
+  border: none;
+}
+.second-button:hover,
+.main-button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+.address-footer,
+.mail-footer,
+.tel-footer {
+  color: var(--white-text-color);
+  font-family: Roboto, sans-serif;;
+  font-size: 14px;
+  text-decoration: none;
+  font-style: normal;
+}
