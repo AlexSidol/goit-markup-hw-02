@@ -1,2 +1,2 @@
 # goit-markup-hw-02
-розмітка і оформлення макета сторінки домашнього завдання #2
+https://alexsidol.github.io/goit-markup-hw-02/
