@@ -12,40 +12,15 @@
 .page {
   background-color: var(--background-color);
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 button {
   font-family: inherit;
-  font-size: inherit;
+  font-size: 16px;
   color: inherit;
   cursor: pointer;
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17px;
-}
-
-.title.examples {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2px;
-  letter-spacing: 0.06em;
-}
-
-.section .title {
-  font-weight: 500;
-  line-height: 1.19px;
-  letter-spacing: 0.03em;
-}
-
-.title-text,
-.site-nav .contact {
-  color: var(--title-text-color);
 }
 
 /* Хедер */
@@ -53,32 +28,34 @@ button {
   background-color: var(--white-text-color);
 }
 .logo,
-.logo-footer {
-  font-family: Oleo Scrip, cursive;
+.logo-footer,
+.partlogo {
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.38px;
+  line-height: 1.19;
 }
 .logo {
   color: #000000;
 }
-.logo-footer {
-color: var(--white-text-color);}
+.logo-footer,
+.address-footer {
+  color: var(--white-text-color);
+}
 .partlogo {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19px;
 }
 /* Хедер Посилання на інші сторінки сайту емейл та телефон */
 
 .site-nav .link {
   color: var(--primary-text-color);
 }
-
+.site-nav .contact {
+  color: var(--title-text-color);
+}
+.second-button:focus,
+.second-button:hover,
 .site-nav .contact:focus,
 .site-nav .contact:hover,
 .site-nav .link:hover,
@@ -89,17 +66,14 @@ color: var(--white-text-color);}
 .mail-footer:focus,
 .mail-footer:hover,
 .tel-footer:focus,
-.tel-footer:hover
-{
+.tel-footer:hover {
   color: var(--accent-color);
 }
 
 .site-nav .link,
 .site-nav .contact {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -107,7 +81,51 @@ color: var(--white-text-color);}
 ul {
   list-style: none;
 }
+/* Переваги веб студії h3*/
 
+.title-capletters {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* h2  */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.title-text,
+.site-nav .contact {
+  color: var(--title-text-color);
+}
+
+/* Наша команда */
+.section-team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.section-team .title-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Приклади робіт */
+.title.examples {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.section-examples .title-text {
+  font-size: 16px;
+  line-height: 1.87;
+}
 /* Hero */
 /* Ефективні рішення для вашого бізнесу */
 .hero,
@@ -118,13 +136,12 @@ ul {
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
   /* text-align: center; */
   letter-spacing: 0.06em;
 }
 
-.main-headline,
-.title.capital-letters {
+.main-headline {
   text-transform: uppercase;
 }
 
@@ -133,10 +150,14 @@ ul {
 .second-button {
   background-color: var(--section-background-color);
   font-weight: 500;
+  line-height: 1.62;
   border: none;
 }
-.second-button:hover,
+
 .main-button {
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: var(--white-text-color);
   background-color: var(--accent-color);
 }
@@ -144,9 +165,13 @@ ul {
 .address-footer,
 .mail-footer,
 .tel-footer {
-  color: var(--white-text-color);
-  font-family: Roboto, sans-serif;;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  line-height: 1.71;
   text-decoration: none;
   font-style: normal;
+}
+.mail-footer,
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
 }
