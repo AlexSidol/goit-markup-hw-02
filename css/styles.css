@@ -54,8 +54,7 @@ button {
 .site-nav .contact {
   color: var(--title-text-color);
 }
-.second-button:focus,
-.second-button:hover,
+
 .site-nav .contact:focus,
 .site-nav .contact:hover,
 .site-nav .link:hover,
@@ -152,6 +151,11 @@ ul {
   font-weight: 500;
   line-height: 1.62;
   border: none;
+}
+.second-button:focus,
+.second-button:hover {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
 }
 
 .main-button {
